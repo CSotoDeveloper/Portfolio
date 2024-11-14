@@ -1,0 +1,137 @@
+@import "../../vars.css";
+
+.container {
+    padding: 40px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 79px;
+    color: var(--color-text);
+    background-color: rgba(12, 12, 12, 0.6);
+    font-family: var(--font-roboto);
+    }
+
+
+.education {
+    list-style: none;
+    padding: 25px;
+    
+}
+
+.education h2 {
+    font-family: var(--font-roboto);
+    color: var(--color-primary);
+    margin: 20px 0 10px;
+}
+
+.education li {
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.4s;
+
+    background-image: linear-gradient(
+        90deg, 
+        rgba(165,215,232, 0.42) 0%,
+        rgba(255,255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.education li:hover{    
+    transform: scale(1.02);
+    background-size: 100% 100%;
+} 
+
+.education h3 {
+    color: var(--color-text);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    font-family: var(--font-roboto);
+
+}
+
+.educationLogo{
+    width: 80px;
+    height: 113px;
+    margin-right: 20px;
+}
+
+.educationContainer {
+    display: flex;
+}
+
+.itcm {
+    font-size: 20px;
+}
+.date {
+    font-size: 15px;
+}
+.logocircle{
+    display: none;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--color-bg);
+    
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+    
+    .educationContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+  .itcm {
+    border-top: 1px solid white;
+  }
+  .educationLogo{
+    position: absolute;    
+    right: 0px;
+    width: 80px;
+    height: 80px;
+}
+  .education {
+    width: 360px;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .education h3 {
+    font-size: 23px;
+  }
+  .educationLogo{
+    display: none;
+
+  }
+  .logocircle{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 40px;
+    display: inline;
+}
+.education li:hover{    
+    transform: scale(1.0);
+} 
+}

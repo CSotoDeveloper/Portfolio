@@ -1,0 +1,35 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "JS",
+        "imageSrc": "skills/js.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+
+    {
+        "title": "Tailwind",
+        "imageSrc": "skills/tailwind.png"
+    },
+    {
+        "title": "NodeJS",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "SQL",
+        "imageSrc": "skills/SQL.png"
+    },
+    {
+        "title": "ExpressJs",
+        "imageSrc": "skills/express.png"
+    }
+]

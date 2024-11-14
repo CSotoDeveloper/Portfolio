@@ -1,0 +1,16 @@
+{
+  "course": "UI/UX Designer | Guide",
+  "instructor": "Arash Ahadzadeh",
+  "status": "Cursando",
+  "platform": "Youtube",
+  "image": "education/youtube.png",
+  "link": "https://www.youtube.com/watch?v=_MFBAtFLNKc&t=4s"
+},
+{
+    "course": "Análisis de Datos de Google",
+    "instructor": "Google Career",
+    "status": "Completado",
+    "platform": "Coursera",
+    "image": "education/coursera.png",
+    "link": "https://www.coursera.org/learn/aspectos-basicos-datos-datos-en-todas-partes"
+}

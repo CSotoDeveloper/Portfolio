@@ -1,0 +1,29 @@
+[
+    {
+        "role": "Logistics Analyst",
+        "organisation": "Vansat",
+        "startDate": "18/01/2024",
+        "endDate": "10/08/2024",
+        "experiences": ["Dashboard Development","Automation with VBA ","Database Maintenance"],
+        "imageSrc": "history/vansat.png"
+    },
+
+
+    {
+        "role": "Data Analyst Jr. & Software Dev.",
+        "organisation": "Oiracel",
+        "startDate": "15/01/2023",
+        "endDate": "19/12/2023",
+        "experiences": ["Dashboard Development","CRUD Creation", "Report Automation"],
+        "imageSrc": "history/oiracel.png"
+    },
+    {
+        "role": "Software Developer & Data analyst ",
+        "organisation": "Freelance",
+        "startDate": "12/02/2022",
+        "endDate": "Present",
+        "experiences": ["MPA Development", "Data Analysis", "ERP System Development"],
+        "imageSrc": "history/freelance.png"
+    }
+
+]

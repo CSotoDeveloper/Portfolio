@@ -1,0 +1,51 @@
+[
+    {
+    "title": "Local Events",
+    "imageSrc": "projects/localevents.png",
+    "description": "Allows users to manage local events. It’s a simple tool for event management with key features for creating, editing, and removing events.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://local-events-zeta.vercel.app/events",
+    "source": "https://github.com/CSotoDeveloper/LocalEvents"
+},
+{
+    "title": "Food Order",
+    "imageSrc": "projects/FoodOrder.jpg",
+    "description": "It's an e-commerce application focused on food ordering, allowing users to manage their orders in a straightforward way.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://food-order-two-liart.vercel.app/",
+    "source": "https://github.com/CSotoDeveloper/FoodOrder"
+},
+{
+    "title": "Shop Cart",
+    "imageSrc": "projects/shop.png",
+    "description": "It’s a general-purpose shopping cart application suitable for any type of online store.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://shop-cart-g3pf3nitb-csotos-projects.vercel.app/",
+    "source": "https://github.com/CSotoDeveloper/ShopCart"
+},
+{
+    "title": "Pomodoro",
+    "imageSrc": "projects/pomodoro.png",
+    "description": "This timer helps users break their work into intervals promoting productivity. ",
+    "skills": ["HTML", "SASS", "JS", "CSS"],
+    "demo": "https://moradoro.netlify.app/",
+    "source": "https://github.com/CSotoDeveloper/Pomodoro"
+},
+{
+    "title": "ToDo",
+    "imageSrc": "projects/todo.png",
+    "description": "To-Do-List Basic",
+    "skills": ["React", "HTML", "CSS"],
+    "demo": "https://todolistcsoto.netlify.app/",
+    "source": "https://github.com/CSotoDeveloper/Todo-List"
+},
+{
+    "title": "Paint",
+    "imageSrc": "projects/paint.png",
+    "description": "Paint Clon",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://paintero.netlify.app/",
+    "source": "https://github.com/CSotoDeveloper/Paint.Js"
+}
+
+]

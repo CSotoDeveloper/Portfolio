@@ -1,0 +1,253 @@
+@import "../../vars.css";
+
+body {
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+}
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactImg{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(
+        90deg,
+        rgba(255,255,255,1) 70%,
+        rgba(255,255,255,0) 120%
+        );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+}
+
+.description span {
+    color: #2db2ff;
+    font-weight: 900;
+}
+
+
+.contactBtn {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 50px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactBtn a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400;
+	z-index: 1;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+}
+
+.contactBtn:hover a {
+	letter-spacing: 2px;
+}
+
+.contactBtn a::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+	transform: skewX(45deg) translate(0);
+	transition: 0.5s;
+	filter: blur(0px);
+}
+
+.contactBtn:hover a::before {
+	transform: skewX(45deg) translate(200px);
+}
+
+.contactBtn::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	bottom: -5px;
+	width: 30px;
+	height: 10px;
+	background: #2db2ff; 
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0.5;
+}
+
+.contactBtn:hover::before {
+	bottom: 0;
+	height: 50%;
+	width: 80%;
+	border-radius: 30px;
+}
+
+.contactBtn::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	top: -5px;
+	width: 30px;
+	height: 10px;
+	background: #2db2ff; /* Azul */
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0.5;
+}
+
+.contactBtn:hover::after {
+	top: 0;
+	height: 50%;
+	width: 80%;
+	border-radius: 30px;
+}
+.heroImg{
+    width: 35%;
+    z-index: 1;
+    border-radius: 50%;
+    border: solid 5px var(--color-primary);
+}
+
+.contactBtnWrap{
+    display: flex;
+    gap: 10px;    
+}
+
+
+
+
+.topBlur{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.botoomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    border: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.heroImgBit{
+    width: 20%;
+}
+.heroImgHide{
+    display: none;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .description{
+        width: 350px;
+    }
+    .title{
+        text-align: center;
+    }
+    .content{
+        align-items: center;
+    }
+    .contactBtnWrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .heroImg{
+      display: none;
+    }
+    .heroImgHide{
+        width: 35%;
+        z-index: 1;
+        border-radius: 50%;
+        border: solid 5px var(--color-primary);
+        display: block;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contactImg{
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+    
+}
